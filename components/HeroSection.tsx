@@ -15,15 +15,12 @@ const HeroSection = () => {
               <Link
                 href="https://www.youtube.com/watch?v=AYaHuZ4BB6Y"
                 passHref
+                className="popup-youtube play-icon-wrap d-flex align-items-center"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <a
-                  className="popup-youtube play-icon-wrap d-flex align-items-center"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="bi-play play-icon"></i>
-                  <small>1:49 Minutes</small>
-                </a>
+                <i className="bi-play play-icon"></i>
+                <small>1:49 Minutes</small>
               </Link>
             </div>
           </div>

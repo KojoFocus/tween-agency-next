@@ -1,5 +1,10 @@
 import React from "react";
 import Link from "next/link"; // Import Link for internal navigation
+import '../public/styles/bootstrap-icons.css';
+import '../public/styles/bootstrap.min.css';
+import '../public/styles/magnific-popup.css';
+import '../public/styles/tooplate-tween-agency.css';
+
 
 const Footer = () => {
   return (
@@ -33,23 +38,23 @@ const Footer = () => {
             <h5 className="text-white mb-3">Services</h5>
             <ul className="footer-menu">
               <li className="footer-menu-item">
-                <Link href="/digital-marketing">
-                  <a className="footer-menu-link">Digital Marketing</a>
+                <Link href="/digital-marketing" className="footer-menu-link">
+                  Digital Marketing
                 </Link>
               </li>
               <li className="footer-menu-item">
-                <Link href="/creative-ideas">
-                  <a className="footer-menu-link">Creative Ideas</a>
+                <Link href="/creative-ideas" className="footer-menu-link">
+                  Creative Ideas
                 </Link>
               </li>
               <li className="footer-menu-item">
-                <Link href="/branding">
-                  <a className="footer-menu-link">Branding</a>
+                <Link href="/branding" className="footer-menu-link">
+                  Branding
                 </Link>
               </li>
               <li className="footer-menu-item">
-                <Link href="/video-contents">
-                  <a className="footer-menu-link">Video Contents</a>
+                <Link href="/video-contents" className="footer-menu-link">
+                  Video Contents
                 </Link>
               </li>
             </ul>
@@ -59,8 +64,8 @@ const Footer = () => {
             <h5 className="text-white mb-3">Say Hi</h5>
             <p className="text-white mb-1">Sunderland SR6 0JL, United Kingdom</p>
             <p>
-              <Link href="mailto:email@company.com">
-                <a className="footer-link">email@company.com</a>
+              <Link href="mailto:email@company.com" className="footer-link">
+                email@company.com
               </Link>
             </p>
           </div>
@@ -72,10 +77,12 @@ const Footer = () => {
                   Copyright © 2022 Tween Agency Co., Ltd.
                   <br />
                   Design:{" "}
-                  <Link href="https://www.tooplate.com/">
-                    <a target="_blank" rel="nofollow">
-                      Tooplate
-                    </a>
+                  <Link
+                    href="https://www.tooplate.com/"
+                    target="_blank"
+                    rel="nofollow"
+                  >
+                    Tooplate
                   </Link>
                 </p>
               </div>
@@ -83,29 +90,22 @@ const Footer = () => {
               <div className="col-lg-3 col-12 ms-auto">
                 <ul className="social-icon">
                   <li>
-                    <Link href="#">
-                      <a className="social-icon-link bi-facebook"></a>
-                    </Link>
+                    <Link href="#" className="social-icon-link bi-facebook" />
                   </li>
                   <li>
-                    <Link href="https://twitter.com/search?q=tooplate">
-                      <a className="social-icon-link bi-twitter"></a>
-                    </Link>
+                    <Link
+                      href="https://twitter.com/search?q=tooplate"
+                      className="social-icon-link bi-twitter"
+                    />
                   </li>
                   <li>
-                    <Link href="#">
-                      <a className="social-icon-link bi-instagram"></a>
-                    </Link>
+                    <Link href="#" className="social-icon-link bi-instagram" />
                   </li>
                   <li>
-                    <Link href="#">
-                      <a className="social-icon-link bi-linkedin"></a>
-                    </Link>
+                    <Link href="#" className="social-icon-link bi-linkedin" />
                   </li>
                   <li>
-                    <Link href="#">
-                      <a className="social-icon-link bi-youtube"></a>
-                    </Link>
+                    <Link href="#" className="social-icon-link bi-youtube" />
                   </li>
                 </ul>
               </div>

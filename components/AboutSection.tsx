@@ -130,19 +130,19 @@ const AboutSection: React.FC = () => {
                           href="https://twitter.com/search?q=tooplate"
                           passHref
                         >
-                          <a className="social-icon-link bi-twitter" target="_blank" rel="noopener noreferrer"></a>
+                          <span className="social-icon-link bi-twitter" />
                         </Link>
                       </li>
 
                       <li>
                         <Link href="#" passHref>
-                          <a className="social-icon-link bi-linkedin" target="_blank" rel="noopener noreferrer"></a>
+                          <span className="social-icon-link bi-linkedin" />
                         </Link>
                       </li>
 
                       <li>
                         <Link href="#" passHref>
-                          <a className="social-icon-link bi-envelope" target="_blank" rel="noopener noreferrer"></a>
+                          <span className="social-icon-link bi-envelope" />
                         </Link>
                       </li>
                     </ul>
@@ -212,9 +212,9 @@ const AboutSection: React.FC = () => {
                               allowed to redistribute this template ZIP file on any
                               other template website. Please{' '}
                               <Link href="https://www.tooplate.com/contact" passHref>
-                                <a target="_blank" rel="noopener noreferrer">
+                                <span>
                                   contact Tooplate
-                                </a>
+                                </span>
                               </Link>{' '}
                               for more info.
                             </p>
